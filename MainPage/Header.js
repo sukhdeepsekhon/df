@@ -41,7 +41,8 @@ const Header = () => {
         <div className="NavBar">
           <div className="Left">
           <Image src={Logo}  className="Logo" width={100} height={100}/>
-            <p className="LogoText">Cavers</p>
+           
+            <a href="/" className="LogoText">Cavers</a>
             <div className="Mid">
               <ul>
                 <li><a className="active" href="default.html">Exam</a></li>

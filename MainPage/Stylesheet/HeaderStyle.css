@@ -133,6 +133,7 @@ ul {
   font-size: 17.6px; /* 22px * 0.8 */
   font-weight: 800;
   margin-left: 8px; /* 10px * 0.8 */
+  text-decoration: none;
 }
 
 .Mid ul {
