@@ -1,0 +1,63 @@
+.ThirdSection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 900px;
+    flex-shrink: 0;
+    background: #1c1c1e;
+  }
+  
+  .CYP {
+    color: #fff;
+    text-align: center;
+    font-family: Mluvka;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: normal;
+  }
+  
+  .Buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 50px;
+  }
+  
+  .SFF3 {
+    display: inline-flex;
+    padding: 5px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #0062cc;
+  }
+  
+  .SFFText {
+    color: #fff;
+    font-family: Mluvka;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  
+  .Plans {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+  }
+  
+  .Plan1, .Plan2 {
+    width: 300px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 25px;
+  }
+  
+  .Plan1 {
+    background: #fff;
+  }
+  
+  .Plan2 {
+    background: #34C759;
+  }
+  

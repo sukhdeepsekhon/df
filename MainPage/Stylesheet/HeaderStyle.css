@@ -1,0 +1,235 @@
+.MainBody {
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 36px; /* 45px * 0.8 */
+  margin-right: 36px; /* 45px * 0.8 */
+}
+
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Left {
+  display: flex;
+  align-items: center;
+}
+
+.Logo {
+  width: 36px; /* 45px * 0.8 */
+  height: 33.12px; /* 41.4px * 0.8 */
+}
+
+.LogoText {
+  color: #1e1e1e;
+  font-family: Mluvka;
+  font-size: 18px; /* 22.5px * 0.8 */
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0;
+  margin-left: 7.2px; /* 9px * 0.8 */
+}
+
+.Mid {
+  overflow: hidden;
+  display: flex;
+}
+
+.Mid a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 12.24px; /* 15.3px * 0.8 */
+  color: #1e1e1e;
+}
+
+.Mid a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.Right {
+  display: flex;
+  align-items: center;
+  gap: 7.2px; /* 9px * 0.8 */
+}
+
+.Login {
+  background-color: #fff;
+  border: 1px solid #1c1c1e;
+  border-radius: 7.2px; /* 9px * 0.8 */
+  display: flex;
+  width: 54px; /* 67.5px * 0.8 */
+  height: 21.6px; /* 27px * 0.8 */
+  padding: 3.6px 10.8px 4.32px 11.52px; /* Adjusting all padding by 20% less */
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.LoginText {
+  color: #1e1e1e;
+  font-family: Mluvka;
+  font-size: 10.8px; /* 13.5px * 0.8 */
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.SFF {
+  display: inline-flex;
+  padding: 3.6px 11.52px 4.32px 11.52px; /* Adjusting padding by 20% less */
+  justify-content: center;
+  align-items: center;
+  border-radius: 7.2px; /* 9px * 0.8 */
+  background: #1c1c1e;
+}
+
+.SFFText {
+  color: #fff;
+  font-family: Mluvka;
+  font-size: 10.8px; /* 13.5px * 0.8 */
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 36px; /* 45px * 0.8 */
+  padding-left: 28.8px; /* 36px * 0.8 */
+}
+
+
+/*Hamburger*/
+
+/* NavBar.module.css */
+
+/* Base styles */
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 40px; /* 10px 50px * 0.8 */
+}
+
+.Left {
+  display: flex;
+  align-items: center;
+}
+
+.Logo {
+  width: 36px; /* 45px * 0.8 */
+  height: 32.8px; /* 41px * 0.8 */
+}
+
+.LogoText {
+  font-family: Mluvka;
+  font-size: 17.6px; /* 22px * 0.8 */
+  font-weight: 800;
+  margin-left: 8px; /* 10px * 0.8 */
+}
+
+.Mid ul {
+  display: flex;
+  gap: 36px; /* 45px * 0.8 */
+  list-style-type: none;
+}
+
+.Mid a {
+  font-size: 12.8px; /* 16px * 0.8 */
+  text-decoration: none;
+  color: #1e1e1e;
+}
+
+.Right {
+  display: flex;
+  gap: 12px; /* 15px * 0.8 */
+  align-items: center;
+}
+
+.Login, .SFF {
+  padding: 4px 12px; /* 5px 15px * 0.8 */
+  border-radius: 8px; /* 10px * 0.8 */
+}
+
+.Login {
+  background-color: #fff;
+  border: 1px solid #1c1c1e;
+}
+
+.LoginText {
+  font-size: 10.4px; /* 13px * 0.8 */
+  font-weight: 700;
+}
+
+.SFF {
+  background-color: #1c1c1e;
+}
+
+.SFFText {
+  color: white;
+  font-size: 10.4px; /* 13px * 0.8 */
+  font-weight: 700;
+}
+
+/* Hamburger menu styles */
+.Hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.Hamburger div {
+  width: 20px; /* 25px * 0.8 */
+  height: 2.4px; /* 3px * 0.8 */
+  background-color: #1e1e1e;
+  margin: 3.2px 0; /* 4px * 0.8 */
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .NavBar {
+    padding: 8px 16px; /* 10px 20px * 0.8 */
+  }
+
+  .Mid {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 48px; /* 60px * 0.8 */
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 16px 0; /* 20px 0 * 0.8 */
+  }
+
+  .Mid ul {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 16px; /* 20px * 0.8 */
+    gap: 12px; /* 15px * 0.8 */
+  }
+
+  .Mid a {
+    padding: 8px 16px; /* 10px 20px * 0.8 */
+    font-size: 14.4px; /* 18px * 0.8 */
+  }
+
+  .Mid.open {
+    display: flex;
+  }
+
+  .Right {
+    display: none; /* Hide on mobile */
+  }
+
+  .Hamburger {
+    display: flex; /* Show hamburger on mobile */
+  }
+}

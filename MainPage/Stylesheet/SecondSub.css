@@ -1,0 +1,172 @@
+
+
+   
+  .MainBody2 {
+    display: flex;
+    height: 750px;
+    align-items: center;
+    justify-content: center;
+    font-family: mluvka;
+    display: flex;
+    justify-content: center;
+  
+  }
+  .Second {
+    display: flex;
+  
+    width: 1011.2px;
+    height: 651px;
+    margin-bottom: 50px;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .Firstheading {
+    color: #000;
+    font-family: Mluvka;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .Secondheading {
+    color: #000;
+    font-family: Mluvka;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .third {
+    display: flex;
+    height: 330px;
+    width: 400px;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .SD {
+    display: flex;
+    justify-content: space-around;
+  }
+  .left {
+    display: flex;
+  }
+  .FirstRight {
+    display: flex;
+    flex-direction: column;
+  }
+  .FR1{
+      color: #0F172A;
+  font-family: Mluvka;
+  font-size: 12.5px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  margin-left: 20px;
+  }
+  .FR2
+  {
+    width: 159px;
+      color: #000;
+      font-family: Mluvka;
+      font-size: 7.5px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal; 
+      margin-left: 20px;
+      margin-bottom: 0;
+  }
+  .GreatBox
+  {
+      width: 650px;
+  height: 350px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  border: 1px solid #000;
+  display: flex;
+  }
+  .up{
+      display: flex;
+  }
+  .borderbox
+  {
+    width: 450px;
+  height: 100px;
+  flex-shrink: 0;
+  background: #475569;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 75px;
+  left:125px;
+  }
+  .bb1
+  {
+    color: #FFF;
+  font-family: Mluvka;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+    padding: 0;
+  
+  }
+  .bb2
+  {
+    color: #FFF;
+  font-family: Mluvka;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+    padding: 0;
+  
+  }
+  .bb3
+  {
+    color: #FFF;
+  font-family: Mluvka;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+    padding: 0;
+  
+  }
+  .bbleft
+  {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .upbb
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .line
+  {
+    width: 1px;
+  height: 60px;
+  background: #FFF;
+  margin-left: 20px;
+  margin-right: 20px;
+  }
+  .right{
+    display: flex;
+  }
+  .dotline
+  {
+    width: 60px;
+  height: 0px;
+  transform: rotate(0deg);
+  flex-shrink: 0;
+  stroke-width: 1px;
+  stroke: #000;
+  }

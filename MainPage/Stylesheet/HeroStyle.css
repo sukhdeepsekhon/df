@@ -1,0 +1,89 @@
+@import url("https://fonts.cdnfonts.com/css/mluvka");
+
+.MainBody {
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 40px; /* Adjusted from 50px */
+  margin-right: 40px; /* Adjusted from 50px */
+}
+
+.Hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px; /* Adjusted from 50px */
+}
+
+.LeftHero {
+  display: flex;
+  flex-direction: column;
+}
+
+.MainLine {
+  margin-top: 81.08px; /* Reduced from 101.5px */
+  color: #000;
+  font-family: Mluvka;
+  font-size: 64px; /* Reduced from 80px */
+  font-weight: 800;
+  line-height: 100%; /* 80px */
+  margin-bottom: 0;
+}
+
+.SecondLine {
+  color: #000;
+  font-family: Mluvka;
+  font-size: 14px; /* Reduced from 17.5px */
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 14px; /* Adjusted from 5px 16px */
+  border-radius: 8px; /* Adjusted from 10px */
+  background: #1e1e1e;
+}
+
+.SFFText {
+  color: #fff;
+  font-family: Mluvka;
+  font-size: 12px; /* Adjusted from 15px */
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.Right {
+  display: flex;
+  align-items: center;
+  gap: 9px; /* Adjusted from 10px */
+}
+
+#phone {
+  display: flex;
+  width: 15vw; /* Changed from fixed width to viewport width */
+  height: 4vh; /* Changed from fixed height to viewport height */
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border: 2px solid;
+  border-radius: 8px; /* Adjusted from 10px */
+}
+
+#login {
+  display: flex;
+  align-items: center;
+  margin-top: 14px; /* Adjusted from 17.5px */
+  gap: 9px; /* Adjusted from 10px */
+}
+
+
